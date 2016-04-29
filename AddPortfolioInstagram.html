@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Add Portfolio Instagram</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/confectioner.css" rel="stylesheet" />
+    <link href="Content/common-style.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/icheck.js"></script>
+    <script src="Scripts/nicescroll.js"></script>
+    <script src="Scripts/magnific.js"></script>
+    <script src="Scripts/bootstrap-tabcollapse.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script src="Scripts/common.js"></script>
+</head>
+<body class="cf-body">
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <a class="logo" href="Dashboard.html">
+                            <img src="Content/Images/logo.png" alt="Где торт?" title="Портал для кондитеров: Где Торт?" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <a href="#" class="btn-flat blue-flat-button">Создать заказ</a>
+                        <a href="#" class="btn-flat orange-flat-button">Могу испечь</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 no-padding">
+                        <div class="top-user-area clearfix">
+                            <ul class="top-user-area-list list list-horizontal list-border">
+                                <li class="hidden-xs"><a href="#">Найти <br />кондитера</a></li>
+                                <li class="hidden-xs"><a href="#">Найти <br />заказ</a></li>
+                                <li class="right-border hidden-xs"><a href="#">Что здесь <br />для Вас</a></li>
+                                <li class="nav-drop mt-20 mr-0 star-menu  col-sm-offset-4 col-md-offset-0">
+                                    <a href="#"><i class="fa fa-star c-pointer"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li>
+                                            <a href="#">Мои избранные</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Кондитеры <span class="white pull-right">5</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">6</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">7</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-bell"></i></a>
+                                </li>
+                                <li class="top-user-area-avatar nav-drop">
+                                    <a href="#">
+                                        <img class="origin round" src="Content/Images/avatar_2.png" alt="Image Alternative text" title="AMaze">
+                                    </a>
+                                    <a href="#"><span class="login-name">пожать</span><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li class="sub-li">
+                                            <a href="#" class="white">Ваш личный кабинет</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Я заказчик</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Я кондитер</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Профиль / Настройки </a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="white" href="#">Избранное</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Сообщения</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Оповещения</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Выход</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mobile menu-->
+        <div class="nav hidden-sm hidden-md hidden-lg panel panel-default menu-mobile">
+            <div class="panel-heading collapsed slimmenu-menu-collapser" data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+                MENU
+                <div class="slimmenu-collapse-button">
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                </div>
+            </div>
+            <div class="panel-collapse collapse" id="collapse-2" style="height: 0px;">
+                <ul>
+                    <li>
+                        <a href="#">Найти кондитера</a>
+                    </li>
+                    <li>
+                        <a href="#">Найти заказ</a>
+                    </li>
+                    <li>
+                        <a href="#">Что здесь для Вас</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="col-xs-12 no-padding mt-15 bread-cumb">
+            <a href="#">Главная  </a> <span> >Ваши профильные данные</span>
+        </div>
+        <div class="clear-0"></div>
+        <div class="col-md-3 col-sm-5 no-padding-left mr-15 mt-26">
+            <button class="form-control via-button login float-left font-13x download-image">ЗАГРУЗИТЬ ИЗОБРАЖЕНИЯ</button>
+        </div>
+        <div class="clear-20 hidden-md hidden-lg hidden-sm"></div>
+        <div class="col-md-5 col-sm-6 no-padding max-360 mr-30">
+            <label class="title-upload"> or provide iamge URL</label>
+            <input class="form-control login-input float-left mr-10" />
+            <button class="form-control via-button login float-left max-85">Upload</button>
+        </div>
+        <div class="clear-0 hidden-md hidden-lg"></div>
+        <div class="col-md-3 col-sm-12 no-padding mt-26">
+            <button class="form-control via-button login float-left download-image">
+                <img src="Content/Images/instagram_icon.PNG" />
+                UPLOAD FROM INSTAGRAM
+            </button>
+        </div>
+        <div class="clear-25"></div>
+        <div class="col-xs-12 dash-line-full"></div>
+        <div class="col-xs-12 no-padding group-image-upload">
+            <div class="col-md-10 col-sm-11 col-xs-12 no-padding group-Portfolio">
+                <div class="col-md-9 col-sm-9 no-padding">
+                    <div class="col-md-2 col-sm-2 mt-5">Category</div>
+                    <div class="clear-5 hidden-lg hidden-md hidden-sm"></div>
+                    <div class="col-md-3 col-sm-3 no-padding-right">
+                        <select class="form-control category download-image" name="category">
+                            <option value=""></option>
+                            <option value="1">Category</option>
+                            <option value="2">Category</option>
+                        </select>
+                    </div>
+                    <div class="clear-5 hidden-lg hidden-md hidden-sm"></div>
+                    <div class="col-md-7 col-sm-7 no-padding-right">
+                        <input class="form-control download-image" placeholder="or provide your own category" />
+                    </div>
+                    <div class="clear-5 hidden-lg hidden-md hidden-sm"></div>
+                </div>
+                <div class="col-md-3 col-sm-3 no-padding-right">
+                    <button class="form-control via-button login float-left download-image">
+                        UPLOAD SELECTED
+                    </button>
+                </div>
+            </div>
+            <div class="clear-30"></div>
+            <div class="col-xs-10 no-padding PortfolioInstagramImage">
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-sm"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-xs"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-sm"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-sm"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-xs"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="clear-30 hidden-lg hidden-md hidden-sm"></div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6">
+                    <div class="col-xs-12 no-padding">
+                        <div class="checkbox-inline checkbox-small">
+                            <label>
+                                <input class="i-check" type="checkbox" />Select image
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/upload_img.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-20"></div>
+        <div class="clear-40"></div>
+        <div class="col-xs-12 no-padding-left">            
+            <button class="form-control via-button login float-left percent-85" type="button" id="uploadImageButton">SHOW MORE IMAGE </button>
+        </div>
+    </div>
+    <div class="clear-120"></div>
+    <footer id="main-footer" class="mt30">
+        <div class="container">
+            <div class="row row-wrap">
+                <div class="col-md-8">
+                    <a class="logo" href="Dashboard.html">
+                        <img src="Content/Images/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                    </a>
+                    <div class="mt20">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Заказчикам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Кондитерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как пользоваться</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как заказать</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">О сервисе</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Политика</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Партнеры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Клиенты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Договоры</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="top-user-area-list list list-horizontal list-border mt10">
+                        <li><a href="#">Найти кондитера</a></li>
+                        <li><a href="#">Найти заказ</a></li>
+                        <li><a href="#">Что здесь для Вас</a></li>
+                    </ul>
+
+                    <ul class="list list-horizontal mt40 footer-icons">
+                        <li>
+                            <a href="/">
+                                <span class="social social-facebook"></span>
+                                <span class="social-link">Facebook <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-vk"></span>
+                                <span class="social-link">ВКонтакте <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-instagram"></span>
+                                <span class="social-link">Инстаграм <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

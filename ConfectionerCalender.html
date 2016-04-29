@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Confectioner Calender</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/confectioner.css" rel="stylesheet" />
+    <link href="Content/common-style.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/icheck.js"></script>
+    <script src="Scripts/nicescroll.js"></script>
+    <script src="Scripts/magnific.js"></script>
+    <script src="Scripts/bootstrap-tabcollapse.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script src="Scripts/common.js"></script>
+
+</head>
+<body class="cf-body">
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <a class="logo" href="Dashboard.html">
+                            <img src="Content/Images/logo.png" alt="Где торт?" title="Портал для кондитеров: Где Торт?" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <a href="#" class="btn-flat blue-flat-button">Создать заказ</a>
+                        <a href="#" class="btn-flat orange-flat-button">Могу испечь</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 no-padding">
+                        <div class="top-user-area clearfix">
+                            <ul class="top-user-area-list list list-horizontal list-border">
+                                <li class="hidden-xs"><a href="#">Найти <br />кондитера</a></li>
+                                <li class="hidden-xs"><a href="#">Найти <br />заказ</a></li>
+                                <li class="right-border hidden-xs"><a href="#">Что здесь <br />для Вас</a></li>
+                                <li class="nav-drop mt-20 mr-0 star-menu  col-sm-offset-4 col-md-offset-0">
+                                    <a href="#"><i class="fa fa-star c-pointer"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li>
+                                            <a href="#">Мои избранные</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Кондитеры <span class="white pull-right">5</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">6</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">7</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-bell"></i></a>
+                                </li>
+                                <li class="top-user-area-avatar nav-drop">
+                                    <a href="#">
+                                        <img class="origin round" src="Content/Images/avatar_2.png" alt="Image Alternative text" title="AMaze">
+                                    </a>
+                                    <a href="#"><span class="login-name">пожать</span><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li class="sub-li">
+                                            <a href="#" class="white">Ваш личный кабинет</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Я заказчик</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Я кондитер</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Профиль / Настройки </a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="white" href="#">Избранное</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Сообщения</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Оповещения</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Выход</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mobile menu-->
+        <div class="nav hidden-sm hidden-md hidden-lg panel panel-default menu-mobile">
+            <div class="panel-heading collapsed slimmenu-menu-collapser" data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+                MENU
+                <div class="slimmenu-collapse-button">
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                </div>
+            </div>
+            <div class="panel-collapse collapse" id="collapse-2" style="height: 0px;">
+                <ul>
+                    <li>
+                        <a href="#">Найти кондитера</a>
+                    </li>
+                    <li>
+                        <a href="#">Найти заказ</a>
+                    </li>
+                    <li>
+                        <a href="#">Что здесь для Вас</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="col-xs-12 no-padding mt-15 bread-cumb">
+            <a href="#">Главная</a> <span> >  Ваши профильные данные</span>
+        </div>
+        <div class="clear-20"></div>
+        <div class="col-md-4 col-sm-12 no-padding max-360">
+            <div class="col-xs-12 celenda-inline-title">
+                Мой каледарь
+            </div>
+            <div class="clear-5"></div>
+            <div class="date-pick-inline"></div>
+        </div>
+        <div class="clear-25 hidden-md hidden-lg"></div>
+        <div class="col-md-8 col-sm-12 no-padding">
+            <div class="col-xs-12 celenda-title">
+                Добавить событие
+            </div>
+            <div class="clear-div"></div>
+            <form id="celendarTop">
+                <div class="col-xs-12 no-padding">
+                    <div class="col-sm-5 max-230 no-padding-right">
+                        <div class="col-xs-12 no-padding">
+                            Дата <span class="red"> *</span>
+                        </div>
+                        <div class="clear-10"></div>
+                        <div class="col-xs-12 no-padding">
+                            <div class="input-group">
+                                <input class="date-pick form-control max-190" type="text" id="date1" name="date1">
+                                <label for="date1" class="input-group-addon">
+                                    <img src="Content/Images/date-icon.png" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="clear-10"></div>
+                    </div>
+                    <div class="col-sm-7 no-padding-right calendarDescription">
+                        <div class="col-xs-12 no-padding">
+                            Описание <span class="red"> *</span>
+                        </div>
+                        <div class="clear-10"></div>
+                        <div class="col-xs-12 no-padding">
+                            <input type="text" class="form-control" name="description" />
+                        </div>
+                        <div class="clear-10"></div>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="col-sm-12">                  
+                    <div class="checkbox-inline">
+                        <label>
+                            <input class="i-check" type="checkbox" />Обозначить день как недоступный (пользователи не смогут сделать
+                        </label>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="col-sm-12">
+                    <button class="form-control via-button login float-left" id="updateDetail" type="submit">ДОБАВИТЬ СОБЫТИЕ</button>
+                </div>
+            </form>
+            <div class="clear-20"></div>
+            <div class="col-xs-12">
+                <div class="dash-line-full"></div>
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12 celenda-title">
+                моя занятость
+            </div>
+            <div class="clear-div"></div>
+            <form id="validateDateBottom">
+                <div class="col-xs-12 no-padding date-bottom">
+                    <div class="col-sm-5 max-230">
+                        <div class="col-xs-12 no-padding">
+                            Дата с
+                        </div>
+                        <div class="clear-10"></div>
+                        <div class="col-xs-12 no-padding">
+                            <div class="input-group">
+                                <input class="date-pick form-control max-190" type="text" id="date2">
+                                <label for="date2" class="input-group-addon">
+                                    <img src="Content/Images/date-icon.png" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="clear-10"></div>
+                    </div>
+                    <div class="col-sm-5 max-230">
+                        <div class="col-xs-12 no-padding">
+                            Дата до
+                        </div>
+                        <div class="clear-10"></div>
+                        <div class="col-xs-12 no-padding">
+                            <div class="input-group">
+                                <input class="date-pick form-control max-190" type="text" id="date3">
+                                <label for="date3" class="input-group-addon">
+                                    <img src="Content/Images/date-icon.png" />
+                                </label>
+                            </div>
+                        </div>
+                        <div class="clear-10"></div>
+                    </div>
+                    <div class="clear-5"></div>
+                    <div class="col-xs-12">
+                        <label for="date1" class="erromessage error">At least one date must be non empty!</label>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="col-sm-12">
+                    <div class="radio-inline">
+                        <label>
+                            <input class="i-radio" type="radio" name="radio2" checked="checked" />День занят
+                        </label>
+                    </div>
+                    <div class="radio-inline">
+                        <label>
+                            <input class="i-radio" type="radio" name="radio2" />День свободен
+                        </label>
+                    </div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="col-sm-12">
+                    <button class="form-control via-button login float-left" id="validateBottom" type="submit">ДОБАВИТЬ СОБЫТИЕ</button>
+                </div>
+            </form>
+            <div class="clear-20"></div>
+        </div>
+        <div class="clear-10"></div>
+        <div class="col-md-9 col-sm-12 no-padding">
+            <table class="table table-no-boder userprofileTable">
+                <thead>
+                    <tr>
+                        <th>Serivce</th>
+                        <th>Description </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="max-135">Занимаюсьь <a href="#" class="no-padding">выпечкой</a></td>
+                        <td class="text-overflow">Занимаюсь выпечкой с 1998 года. Большой опыт работы и море вкусных идей.</td>
+                        <td class="text-right"><a class="table-red" href="#">выпечкой</a>  |  <a class="table-red" href="#">выпечкой</a></td>
+                    </tr>
+                    <tr>
+                        <td class="max-135">Занимаюсьь <a href="#" class="no-padding">выпечкой</a></td>
+                        <td class="text-overflow">Занимаюсь выпечкой с 1998 года. Большой опыт работы и море вкусных идей.</td>
+                        <td class="text-right"><a class="table-red" href="#">выпечкой</a>  |  <a class="table-red" href="#">выпечкой</a></td>
+                    </tr>
+                    <tr>
+                        <td class="max-135">Занимаюсьь <a href="#" class="no-padding">выпечкой</a></td>
+                        <td class="text-overflow">Занимаюсь выпечкой с 1998 года. Большой опыт работы и море вкусных идей.</td>
+                        <td class="text-right"><a class="table-red" href="#">выпечкой</a>  |  <a class="table-red" href="#">выпечкой</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="clear-120"></div>
+    <footer id="main-footer" class="mt30">
+        <div class="container">
+            <div class="row row-wrap">
+                <div class="col-md-8">
+                    <a class="logo" href="Dashboard.html">
+                        <img src="Content/Images/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                    </a>
+                    <div class="mt20">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Заказчикам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Кондитерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как пользоваться</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как заказать</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">О сервисе</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Политика</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Партнеры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Клиенты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Договоры</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="top-user-area-list list list-horizontal list-border mt10">
+                        <li><a href="#">Найти кондитера</a></li>
+                        <li><a href="#">Найти заказ</a></li>
+                        <li><a href="#">Что здесь для Вас</a></li>
+                    </ul>
+
+                    <ul class="list list-horizontal mt40 footer-icons">
+                        <li>
+                            <a href="/">
+                                <span class="social social-facebook"></span>
+                                <span class="social-link">Facebook <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-vk"></span>
+                                <span class="social-link">ВКонтакте <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-instagram"></span>
+                                <span class="social-link">Инстаграм <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        $().ready(function () {
+            $('input.date-pick, .input-daterange, .date-pick-inline').datepicker({
+                todayHighlight: true,
+                autoclose: true
+            });
+            $("#celendarTop").validate({
+                rules: {
+                    date1: {
+                        required: true,
+                    },
+                    description: {
+                        required: true,
+                    }
+                },
+                messages: {
+                    date1: "Value is required",
+                    description: "Value is required"
+                }
+            });
+            $('#validateBottom').click(function () {
+                var result = false;
+                $('.date-bottom').find('.date-pick').each(function () {
+                    if ($(this).val() != "") {
+                        result = true;
+                    };
+                })
+                if (!result) {
+                    $('.date-bottom').find('.date-pick').addClass('error');
+                    $('.date-bottom').find('.erromessage ').show();
+                    event.preventDefault();
+                }
+            });
+            $('.date-bottom').find('.date-pick').change(function () {
+                var result = false;
+                if ($(this).val() != "") {
+                    result = true;
+                };
+                if (!result) {
+                    $('.date-bottom').find('.date-pick').addClass('error');
+                    $('.date-bottom').find('.erromessage ').show();
+                }
+                else {
+                    $('.date-bottom').find('.erromessage ').hide();
+                    $('.date-bottom').find('.date-pick').removeClass('error');
+                }
+            })
+        });
+    </script>
+
+</body>
+</html>

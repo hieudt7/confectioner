@@ -1,0 +1,284 @@
+/*jquery validation*/
+/*#login-form label.error, #register-form label.error, #restore-password-form label.error {
+    text-align: center;
+    margin-left: -40px;
+    width: auto !important;
+}*/
+
+label.error {
+    color: red;
+    width: 255px;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+em.invalid {
+    color: red;
+}
+
+input.invalid {
+    border: 1px solid red !important;
+}
+
+/*Login*/
+.login-form-base, .forgot-password, .restore-password-form {
+    width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+/*.restore-password {
+    width: 80%;
+    margin: 5px 10%;
+    font-size: 18px;
+    text-align: center;
+}*/
+
+.btn-login-type {
+    width: 80%;
+    margin: 13px 10% 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.login-text {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.login-header {
+    width: 80%;
+    margin: 5px 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*.login-form-location input {
+    width: 80%;
+    margin: 5px 10%;
+}*/
+
+.login-form-submit, .login-form-forgot-password {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+.error-text, success-text {
+    width: 80%;
+    margin: 10px 10%;
+    color: red;
+    text-align: center;
+}
+
+.nav a {
+    cursor: pointer;
+}
+
+[disabled='disabled'] {
+    cursor: not-allowed !important;
+}
+
+.register-confectioner-button {
+    padding: 10px;
+}
+
+.register-confectioner-location {
+    padding-top: 20px;
+}
+
+/*Profile*/
+.profile a {
+    cursor: pointer;
+}
+
+.profile-header-text {
+    font-weight: bold;
+}
+
+.profile-header-button {
+    width: 100%;
+    padding: 10px 0;
+}
+
+    .profile-header-button button {
+        width: 100%;
+    }
+
+.profile-row {
+    padding: 10px;
+}
+
+    .profile-row input {
+        margin-bottom: 15px;
+    }
+
+
+
+.register-confectioner-button {
+    margin: 10px 0;
+}
+
+.err-text {
+    color: red;
+}
+
+.suc-text {
+    color: #5cb85c;
+}
+/*Confectiner register*/
+.confectioner-register {
+}
+
+.register-confectioner-company-title {
+    display: none;
+}
+
+/*#confectioner-register-form .radio-inline {
+    width: 130px;
+}*/
+
+.companyGroup {
+    display: none;
+}
+/*Confectiner profile*/
+#GroupCompanyNameArea {
+    display: none;
+    border-top: none;
+}
+
+.table-red {
+    cursor: pointer;
+}
+
+#confirm-delete-modal button {
+    width: auto;
+}
+/*Confectiner calendar*/
+.btn-add-event {
+    width: 100%;
+}
+
+#form-add-event input[type=text] {
+    width: 100%;
+}
+
+#show-all-event, #calendar-event a {
+    cursor: pointer;
+}
+
+td.today.day {
+    background-color: #0ebcf2 !important;
+    color: #fff !important;
+}
+
+.busy-day:before {
+    content: '';
+    position: absolute;
+    background-color: #ed3030;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    margin-left: 18px;
+    margin-top: -5px;
+}
+
+.free-day:before {
+    content: '';
+    position: absolute;
+    background-color: #0ebcf2;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    margin-left: 18px;
+    margin-top: -5px;
+}
+
+.btn.btn-primary {
+    margin-bottom: 2px;
+}
+
+.avatar-btns .btn, .avatar-btns .btn:hover {
+    border-radius: 0;
+}
+
+.avatar-btns .btn-group > .btn:first-child {
+    margin-left: -1px;
+}
+
+
+.modal-header .close {
+    width: auto;
+}
+
+#confirm-delete-dialog button {
+    width: auto;
+}
+
+/*Customize*/
+
+#show-all-event, #calendar-event a {
+    cursor: pointer;
+}
+
+/*Add portfolio*/
+#multiple-file-upload {
+    display: none;
+}
+
+.image-row a {
+    cursor: pointer;
+}
+
+.image-row.error-row {
+    background-color: rgba(255,0,0,0.3);
+}
+
+.PortfolioInstagramImage img {
+    width: 100%;
+}
+
+#instagramnotfound {
+    display: none;
+}
+
+#popup-gallery a {
+    cursor: pointer;
+}
+
+.edit-portfolio-form {
+    /*display: none;*/
+}
+
+#edit-dialog button {
+    width: auto;
+}
+
+.hidedelivery {
+    display: none;
+}
+
+#instagramimages {
+    display: none;
+}
+
+.image-description {
+    width: 100% !important;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.imageGroup {
+   margin-bottom: 30px;
+}
+#confectioner-calendar-page .error {
+    width: 100% !important;
+}
+#savePortfolios {
+    display: none;
+}
+#successmessage {
+    display: none;
+    text-align: center;
+}                 

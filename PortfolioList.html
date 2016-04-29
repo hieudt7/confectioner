@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Portfolio List</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/confectioner.css" rel="stylesheet" />
+    <link href="Content/common-style.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/icheck.js"></script>
+    <script src="Scripts/nicescroll.js"></script>
+    <script src="Scripts/magnific.js"></script>
+    <script src="Scripts/bootstrap-tabcollapse.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script src="Scripts/common.js"></script>
+</head>
+<body class="cf-body">
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <a class="logo" href="Dashboard.html">
+                            <img src="Content/Images/logo.png" alt="Где торт?" title="Портал для кондитеров: Где Торт?" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <a href="#" class="btn-flat blue-flat-button">Создать заказ</a>
+                        <a href="#" class="btn-flat orange-flat-button">Могу испечь</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 no-padding">
+                        <div class="top-user-area clearfix">
+                            <ul class="top-user-area-list list list-horizontal list-border">
+                                <li class="hidden-xs"><a href="#">Найти <br />кондитера</a></li>
+                                <li class="hidden-xs"><a href="#">Найти <br />заказ</a></li>
+                                <li class="right-border hidden-xs"><a href="#">Что здесь <br />для Вас</a></li>
+                                <li class="nav-drop mt-20 mr-0 star-menu  col-sm-offset-4 col-md-offset-0">
+                                    <a href="#"><i class="fa fa-star c-pointer"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li>
+                                            <a href="#">Мои избранные</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Кондитеры <span class="white pull-right">5</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">6</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">7</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-bell"></i></a>
+                                </li>
+                                <li class="top-user-area-avatar nav-drop">
+                                    <a href="#">
+                                        <img class="origin round" src="Content/Images/avatar_2.png" alt="Image Alternative text" title="AMaze">
+                                    </a>
+                                    <a href="#"><span class="login-name">пожать</span><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li class="sub-li">
+                                            <a href="#" class="white">Ваш личный кабинет</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Я заказчик</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Я кондитер</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Профиль / Настройки </a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="white" href="#">Избранное</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Сообщения</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Оповещения</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Выход</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mobile menu-->
+        <div class="nav hidden-sm hidden-md hidden-lg panel panel-default menu-mobile">
+            <div class="panel-heading collapsed slimmenu-menu-collapser" data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+                MENU
+                <div class="slimmenu-collapse-button">
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                </div>
+            </div>
+            <div class="panel-collapse collapse" id="collapse-2" style="height: 0px;">
+                <ul>
+                    <li>
+                        <a href="#">Найти кондитера</a>
+                    </li>
+                    <li>
+                        <a href="#">Найти заказ</a>
+                    </li>
+                    <li>
+                        <a href="#">Что здесь для Вас</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="col-xs-12 no-padding mt-15 bread-cumb">
+            <a href="#">Главная</a> <span> >   Ваши профильные данные </span>
+        </div>
+        <div class="clear-20"></div>        
+        <div class="col-md-9 col-sm-12 no-padding">
+            <div class="clear-20"></div>
+            <div class="col-xs-12 no-padding">Search by Tag</div>        
+            <div class="clear-5"></div>   
+            <div class="col-xs-7 no-padding  max-265">
+                <input class="form-control login-input" type="text">
+            </div>    
+            <div class="col-xs-5">
+                <a href="#" class="btn-flat blue-flat-button OpenBold portfolioSearch">SEARCH</a>
+            </div>    
+            <div class="clear-20"></div>
+            <div class="col-xs-12 dash-line-full"></div>
+            <div class="clear-15"></div>
+            <div class="col-xs-12 no-padding">
+                <ul class="pagination float-right">
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">6</a>
+                    </li>
+                    <li>
+                        <a href="#">7</a>
+                    </li>
+                    <li class="dots">...</li>
+                    <li>
+                        <a href="#">43</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Next Page</a>
+                    </li>
+                </ul>
+            </div>   
+            <div class="clear-div"></div>         
+            <!--<div class="col-xs-12 no-padding">                
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left max-175">                   
+                    <div class="col-xs-12 no-padding">                        
+                        <img src="Content/Images/Portfolio-list.PNG"/>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>        
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left max-175">
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/Portfolio-list.PNG" />
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>        
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left max-175">
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/Portfolio-list.PNG" />
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>        
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left max-175">
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/Portfolio-list.PNG" />
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>        
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left max-175">
+                    <div class="col-xs-12 no-padding">
+                        <img src="Content/Images/Portfolio-list.PNG" />
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>        
+            </div>-->
+            <div class="col-xs-12 no-padding" id="popup-gallery">
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left">
+                    <div class="col-xs-12 no-padding">
+                        <a class="hover-img popup-gallery-image" href="Content/Images/Portfolio-list.PNG" data-effect="mfp-zoom-out">
+                            <img src="Content/Images/Portfolio-list.PNG" alt="Image Alternative text" title="Gaviota en el Top" /><i class="fa fa-plus round box-icon-small hover-icon i round"></i>
+                        </a>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left">
+                    <div class="col-xs-12 no-padding">
+                        <a class="hover-img popup-gallery-image" href="Content/Images/Portfolio-list.PNG" data-effect="mfp-zoom-out">
+                            <img src="Content/Images/Portfolio-list.PNG" alt="Image Alternative text" title="Gaviota en el Top" /><i class="fa fa-plus round box-icon-small hover-icon i round"></i>
+                        </a>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left">
+                    <div class="col-xs-12 no-padding">
+                        <a class="hover-img popup-gallery-image" href="Content/Images/Portfolio-list.PNG" data-effect="mfp-zoom-out">
+                            <img src="Content/Images/Portfolio-list.PNG" alt="Image Alternative text" title="Gaviota en el Top" /><i class="fa fa-plus round box-icon-small hover-icon i round"></i>
+                        </a>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left">
+                    <div class="col-xs-12 no-padding">
+                        <a class="hover-img popup-gallery-image" href="Content/Images/Portfolio-list.PNG" data-effect="mfp-zoom-out">
+                            <img src="Content/Images/Portfolio-list.PNG" alt="Image Alternative text" title="Gaviota en el Top" /><i class="fa fa-plus round box-icon-small hover-icon i round"></i>
+                        </a>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6 no-padding-left">
+                    <div class="col-xs-12 no-padding">
+                        <a class="hover-img popup-gallery-image" href="Content/Images/Portfolio-list.PNG" data-effect="mfp-zoom-out">
+                            <img src="Content/Images/Portfolio-list.PNG" alt="Image Alternative text" title="Gaviota en el Top" /><i class="fa fa-plus round box-icon-small hover-icon i round"></i>
+                        </a>
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioTitle">
+                        Title is Here
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 portfolioCategory">
+                        Category: Cake
+                    </div>
+                    <div class="clear-0"></div>
+                    <div class="col-xs-12 no-padding">
+                        <a href="#" class="confectioner-a float-left">Edit</a>
+                        <a href="#" class="confectioner-a float-right">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear-15"></div>
+            <div class="col-xs-12 no-padding">
+                <ul class="pagination float-right">
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">6</a>
+                    </li>
+                    <li>
+                        <a href="#">7</a>
+                    </li>
+                    <li class="dots">...</li>
+                    <li>
+                        <a href="#">43</a>
+                    </li>
+                    <li class="next">
+                        <a href="#">Next Page</a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+        <div class="col-md-3 no-padding float-right right-content hidden-xs hidden-sm">
+            <div class="clear-15"></div>
+            <div class="col-xs-12">
+                <a href="#" class="btn-flat blue-flat-button OpenBold ml-5">пополнить портфолио</a>
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12">
+                <a class="user-profile confectioner-a OpenBold" href="#">Мои общие данные </a>
+                <br />
+                <a class="user-profile confectioner-a OpenBold" href="#">Мои контакты  </a>
+                <br />
+                <a class="user-profile confectioner-a OpenBold" href="#">Мои услуги  </a>
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12">
+                <div class="dash-line-full"></div>
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12">
+                <a class="user-profile confectioner-a OpenBold" href="#">Портфолио и работы</a>
+                <br />
+                <a class="user-profile confectioner-a OpenBold" href="#">Мой календарь </a>
+            </div>
+            <div class="clear-20"></div>
+            <div class="clear-40 bg-white"></div>
+            <div class="col-xs-12 sub-content">
+                <span class="OpenBold" style="color: #1c1c1c;">
+                    Место для Вашей рекламы баннера, акции
+                </span>
+            </div>
+        </div>
+        <div class="clear-10"></div>
+    </div>
+    <div class="clear-120"></div>
+    <footer id="main-footer" class="mt30">
+        <div class="container">
+            <div class="row row-wrap">
+                <div class="col-md-8">
+                    <a class="logo" href="Dashboard.html">
+                        <img src="Content/Images/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                    </a>
+                    <div class="mt20">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Заказчикам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Кондитерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как пользоваться</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как заказать</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">О сервисе</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Политика</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Партнеры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Клиенты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Договоры</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="top-user-area-list list list-horizontal list-border mt10">
+                        <li><a href="#">Найти кондитера</a></li>
+                        <li><a href="#">Найти заказ</a></li>
+                        <li><a href="#">Что здесь для Вас</a></li>
+                    </ul>
+
+                    <ul class="list list-horizontal mt40 footer-icons">
+                        <li>
+                            <a href="/">
+                                <span class="social social-facebook"></span>
+                                <span class="social-link">Facebook <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-vk"></span>
+                                <span class="social-link">ВКонтакте <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-instagram"></span>
+                                <span class="social-link">Инстаграм <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Lighbox gallery
+            $('#popup-gallery').each(function () {
+                $(this).magnificPopup({
+                    delegate: 'a.popup-gallery-image',
+                    type: 'image',
+                    gallery: {
+                        enabled: true
+                    }
+                });
+            });
+            // Lighbox image
+            $('.popup-image').magnificPopup({
+                type: 'image'
+            });
+        });
+    </script>
+</body>
+</html>

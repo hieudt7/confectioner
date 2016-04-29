@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Order Form</title>    
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <link href="Content/confectioner.css" rel="stylesheet" />
+    <link href="Content/common-style.css" rel="stylesheet" />
+    <link href="Content/mobileStyle.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+    <script src="Scripts/icheck.js"></script>
+    <script src="Scripts/nicescroll.js"></script>
+    <script src="Scripts/magnific.js"></script>
+    <script src="Scripts/bootstrap-tabcollapse.js"></script>
+    <script src="Scripts/bootstrap-datepicker.js"></script>
+    <script src="Scripts/common.js"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-564c1f5d611c0496" async="async"></script>
+</head>
+<body class="cf-body">
+    <header id="main-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <a class="logo" href="Dashboard.html">
+                            <img src="Content/Images/logo.png" alt="Где торт?" title="Портал для кондитеров: Где Торт?" />
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-9">
+                        <a href="#" class="btn-flat blue-flat-button">Создать заказ</a>
+                        <a href="#" class="btn-flat orange-flat-button">Могу испечь</a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 no-padding">
+                        <div class="top-user-area clearfix">
+                            <ul class="top-user-area-list list list-horizontal list-border">
+                                <li class="hidden-xs"><a href="#">Найти <br />кондитера</a></li>
+                                <li class="hidden-xs"><a href="#">Найти <br />заказ</a></li>
+                                <li class="right-border hidden-xs"><a href="#">Что здесь <br />для Вас</a></li>
+                                <li class="nav-drop mt-20 mr-0 star-menu  col-sm-offset-4 col-md-offset-0">
+                                    <a href="#"><i class="fa fa-star c-pointer"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li>
+                                            <a href="#">Мои избранные</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Кондитеры <span class="white pull-right">5</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">6</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вкусности <span class="white pull-right">7</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-envelope"></i></a>
+                                </li>
+                                <li class="mt-20">
+                                    <a href="#"><i class="fa fa-bell"></i></a>
+                                </li>
+                                <li class="top-user-area-avatar nav-drop">
+                                    <a href="#">
+                                        <img class="origin round" src="Content/Images/avatar_2.png" alt="Image Alternative text" title="AMaze">
+                                    </a>
+                                    <a href="#"><span class="login-name">пожать</span><i class="fa fa-angle-down"></i><i class="fa fa-angle-up"></i></a>
+                                    <ul class="list nav-drop-menu user-drop">
+                                        <li class="sub-li">
+                                            <a href="#" class="white">Ваш личный кабинет</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Я заказчик</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Я кондитер</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> Профиль / Настройки </a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="white" href="#">Избранное</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a href="#">Сообщения</a>
+                                        </li>
+                                        <li class="sub-li">
+                                            <a class="last" href="#">Оповещения</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">Выход</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--mobile menu-->
+        <div class="nav hidden-sm hidden-md hidden-lg panel panel-default menu-mobile">
+            <div class="panel-heading collapsed slimmenu-menu-collapser" data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+                MENU
+                <div class="slimmenu-collapse-button">
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                    <span class="slimmenu-icon-bar"></span>
+                </div>
+            </div>
+            <div class="panel-collapse collapse" id="collapse-2" style="height: 0px;">
+                <ul>
+                    <li>
+                        <a href="#">Найти кондитера</a>
+                    </li>
+                    <li>
+                        <a href="#">Найти заказ</a>
+                    </li>
+                    <li>
+                        <a href="#">Что здесь для Вас</a>
+                    </li>
+                    <li>
+                        <a href="#">Истории успехов</a>
+                    </li>
+                    <li>
+                        <a href="#">ДЛЯ КОНДИТЕРОВ</a>
+                    </li>
+                    <li>
+                        <a href="#">Онлайн уроки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="col-xs-12 menu-title hidden-xs">
+        <div class="container">
+            <ul class="float-left">
+                <li>
+                    <a href="#">
+                        Истории успехов
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        ДЛЯ КОНДИТЕРОВ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Онлайн уроки
+                    </a>
+                </li>
+            </ul>
+            <ul class="float-right">
+                <li>
+                    <i class="fa fa-envelope-o mr-10"></i>
+                    Связаться с нами
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 no-padding mt-15 bread-cumb">
+            <span> Главная  >  Хабаровск  >  Кондитеры  >  </span>  <a href="#">Елена Иванова</a>
+        </div>
+        <div class="clear-20"></div>
+        <div class="col-xs-12 no-padding register-confectioner-group">
+            <div class="clear-20"></div>
+            <div class="col-xs-12 font-26x color-33">
+                Создайте заказ для кондитера
+            </div>
+            <div class="clear-20"></div>
+            <div class="col-xs-12">
+                <div class="col-xs-5 max-55 text-left no-padding">
+                    <img src="Content/Images/avatar.jpg" class="round-image" />
+                </div>
+                <div class="col-xs-7 no-padding">
+                    <div class="col-xs-12 no-padding font-15x color-45 mt-10">
+                        <span class="OpenBold">Елена П. </span> (<span class="blue-light">TheCookieMaster</span>)
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-20"></div>
+                <div class="col-sm-3 col-xs-6 max-135 no-padding-left no-max-mobile">
+                    <span class="color-45 font-16x">Direct contact</span>
+                </div>
+                <div class="col-sm-3 col-xs-6 max-160 no-padding-left no-max-mobile">
+                    <span class="color-45 font-16x">
+                        <span class="social-ico phone"></span> <span class="blue-light OpenBold">+7 914 771...</span>
+                    </span>
+                </div>
+                <div class="col-sm-3 col-xs-6 max-115 no-padding-left no-max-mobile">
+                    <span class="color-45 font-16x">
+                        <span class="viber-ico"></span> <span class="purple OpenBold">Viber</span>
+                    </span>
+                </div>
+                <div class="col-sm-3 col-xs-6 no-padding-left no-max-mobile">
+                    <span class="viber-ico green"></span> <span class="green-light1 OpenBold">WhatsApp</span>
+                </div>
+                <div class="clear-15"></div>
+                <div class="dash-line-full"></div>
+                <div class="clear-5"></div>
+            </div>
+            <div class="clear-15"></div>
+            <div class="col-xs-12 font-22x color-33">
+                Или укажите подробнее, что Вы желаете, и мы отправим уведомлени кондитеру:
+            </div>
+
+            <div class="clear-30"></div>
+            <form id="validateOrder">
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Category</div>
+                <div class="col-sm-10">
+                    <div class="col-sm-6 no-padding mb-10 max-280 mr-50 no-margin-right-mobile no-max-mobile">
+                        <select class="form-control white-drop blue-control" name="category" id="category">
+                            <option value="">Please select Category</option>
+                            <option value="1">Category 1</option>
+                            <option value="2">Category 2</option>
+                        </select>
+                        <div class="clear-0"></div>
+                    </div>
+                    <div class="col-sm-6 no-padding mb-10 max-280 no-max-mobile">
+                        <select class="form-control white-drop blue-control" name="sub_category" id="sub_category" disabled>
+                            <option value="">Sub-Category</option>
+                            <option value="1">Category 1</option>
+                            <option value="2">Category 2</option>
+                        </select>
+                        <div class="clear-0"></div>
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Title</div>
+                <div class="col-sm-10 max-640  no-max-mobile">
+                    <input type="text" class="form-control blue-control" name="title" />
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Description</div>
+                <div class="col-sm-10 max-640 no-max-mobile">
+                    <textarea class="form-control blue-control min-height-200" name="description"></textarea>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150"></div>
+                <div class="col-sm-10 max-640 text-right no-max-mobile">
+                    <label for="attFile" class="InputFileBlue" id="labelAttFile">ATTACH FILES</label>                    
+                    <input type="file" id="attFile" class="no-opacity" name="attachFile" />
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Delivery date</div>
+                <div class="col-sm-10">
+                    <div class="col-sm-12 no-padding mb-10 max-280 no-max-mobile">
+                        <input class="form-control blue-control" placeholder="18/11/2015" name="deliveryDate" />
+                        <div class="clear-0"></div>
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Delivery</div>
+                <div class="col-sm-10">
+                    <div class="col-sm-12 no-padding mb-10 max-280 no-max-mobile">
+                        <div class="checkbox-inline">
+                            <label>
+                                <input class="i-check DeliveryCheck" type="checkbox" />
+                            </label>
+                        </div>
+                        <div class="clear-0"></div>
+                        <div class="clear-15"></div>
+                        <div class="col-sm-12 no-padding mb-10 max-280 no-max-mobile" id="city">
+                            <input class="form-control blue-control" placeholder="City" name="city" />
+                            <div class="clear-15"></div>
+                        </div>
+                        <div class="clear-0"></div>
+                        <div class="col-sm-12 no-padding mb-10 max-280 no-max-mobile" id="street">
+                            <input class="form-control blue-control" placeholder="Street  and Apt №" name="street" />
+                            <div class="clear-0"></div>
+                        </div>
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Contact phone</div>
+                <div class="col-sm-10">
+                    <div class="col-sm-12 no-padding mb-10 max-280">
+                        <input class="form-control blue-control" name="contactPhone" />
+                        <div class="clear-0"></div>
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+                <div class="col-sm-2 no-padding-right mt-5 max-150">Make public</div>
+                <div class="col-sm-10">
+                    <div class="col-sm-12 no-padding mb-10 max-280">
+                        <div class="checkbox-inline">
+                            <label>
+                                <input class="i-check" type="checkbox" />
+                            </label>
+                        </div>
+                        <div class="clear-0"></div>
+                    </div>
+                    <div class="clear-0"></div>
+                </div>
+                <div class="clear-15"></div>
+
+                <div class="col-md-2 col-sm-2 no-padding-right mt-5 max-150"></div>
+                <div class="col-md-6 col-sm-6">
+                    <button class="form-control via-button login float-left" id="submitRequest">SUBMIT REQUEST</button>
+                </div>
+            </form>
+            <div class="clear-45"></div>
+        </div>
+    </div>
+    <div class="clear-120"></div>
+    <footer id="main-footer" class="mt30">
+        <div class="container">
+            <div class="row row-wrap">
+                <div class="col-md-8">
+                    <a class="logo" href="Dashboard.html">
+                        <img src="Content/Images/logo-invert.png" alt="Image Alternative text" title="Image Title" />
+                    </a>
+                    <div class="mt20">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Заказчикам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Кондитерам</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как пользоваться</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Как заказать</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">О сервисе</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Наши услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Политика</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">F.A.Q.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="list list-footer">
+                                    <li>
+                                        <a href="#">Партнеры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Клиенты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Договоры</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="top-user-area-list list list-horizontal list-border mt10">
+                        <li><a href="#">Найти кондитера</a></li>
+                        <li><a href="#">Найти заказ</a></li>
+                        <li><a href="#">Что здесь для Вас</a></li>
+                    </ul>
+
+                    <ul class="list list-horizontal mt40 footer-icons">
+                        <li>
+                            <a href="/">
+                                <span class="social social-facebook"></span>
+                                <span class="social-link">Facebook <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-vk"></span>
+                                <span class="social-link">ВКонтакте <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/">
+                                <span class="social social-instagram"></span>
+                                <span class="social-link">Инстаграм <i class="fa fa-angle-right"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(function () {
+            //hiden city, street when load
+            $("#city").hide();
+            $("#street").hide();
+
+            //change file name of file input
+            $('#attFile').change(function () {
+                if ($(this).val() != "") {
+                    $("#labelAttFile").text($(this).val().replace("C:\\fakepath\\", ".../"));
+                    $("#labelAttFile").removeClass('text-right').removeClass('error').addClass('text-left');
+                }
+                else {
+                    $("#labelAttFile").addClass('error');
+                    $("#labelAttFile").text('ATTACH FILES');
+                }
+            });
+            //show/hiden city, street
+            $('.iCheck-helper').click(function () {
+                if ($(this).parent('.i-check').hasClass('checked') && $(this).parent('.i-check').find('input[type="checkbox"]').hasClass('DeliveryCheck')) {
+                    $("#city").show();
+                    $("#street").show();
+                }
+                else {
+                    $("#city").hide();
+                    $("#street").hide();
+                }
+            });
+
+            //disable/enable sub-category
+            $('#category').change(function () {
+                if ($(this).val() == '' || $(this).val() == '0') {
+                    $("#sub_category").attr('disabled', 'disabled');
+                }
+                else {
+                    $("#sub_category").removeAttr('disabled', 'disabled');
+                };
+            })
+            //validate
+            $("#validateOrder").validate({
+                rules: {
+                    category: {
+                        required: true,
+                    },
+                    sub_category: {
+                        required: true,
+                    },
+                    title: {
+                        required: true,
+                    },
+                    description: {
+                        required: true,
+                    },
+                    attachFile: {
+                        required: true,
+                    },
+                    deliveryDate: {
+                        required: true,
+                    },
+                    city: {
+                        required: true,
+                    },
+                    street: {
+                        required: true,
+                    },
+                    contactPhone: {
+                        required: true,
+                    },
+                },
+                messages: {
+                    Username: {
+                        required: "Value is required",
+                    },
+                    email: {
+                        required: "Value is required",
+                    },
+                    password: {
+                        required: "Value is required",
+                    },
+                    confirmPassword: {
+                        required: "Value is required",
+                    }
+                }
+            });
+
+            //add style error for file
+            $('#submitRequest').click(function () {
+                if ($('#attFile').val() == "") {
+                    $("#labelAttFile").addClass('error');
+                }
+            })
+        })
+    </script>
+</body>
+</html>
